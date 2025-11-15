@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <>
             {!isAuthRoute && (
-                <div className="w-full h-24 flex flex-row justify-between items-center px-6 shadow-md">
+                <div className="w-full h-24 z-50 fixed bg-white flex flex-row justify-between items-center px-6 shadow-md">
                     {/* logo */}
                     <Link href={"/"}>
                         <div className="text-3xl">ini logo</div>
