@@ -37,7 +37,17 @@ export default function DetailProductPage({ params }) {
 
                     <button className="w-full h-[53px] rounded-[12px] mt-4 bg-[#FFD966] cursor-pointercursor-pointer">Masukkan Keranjang</button>
                 </div>
-                <div className="bg-white  shadow-md">
+                <div className="bg-white flex flex-col p-6 shadow-md rounded-4xl">
+                    <div className="w-full flex justify-between">
+                        {/* nama produk */}
+                        <h1 className="text-2xl font-bold">Nama : Nikkor Z 40mm</h1>
+                        {/* jumlah stok */}
+                        <p className="text-2xl font-bold">Tersisa : 1</p>
+                    </div>
+
+                    {/* deskripsi */}
+                    <h1 className="text-2xl font-bold mt-4">Deskripsi : </h1>
+                    <p className="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit molestiae dolorem distinctio laborum culpa asperiores possimus at. Vero, voluptate soluta! Est commodi laborum dolorum nulla, tempora saepe accusantium eos doloribus.</p>
                 </div>
             </div>
         </div>
